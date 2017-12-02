@@ -26,4 +26,27 @@
 }
 
 
+//choose gender: on for male and off for female, then it will show the suggestion drinking value
+- (IBAction)mySwitch:(UISwitch *)sender {
+    if (sender.on) {
+        self.Gender.text = @"Male";
+        self.Suggestion.text = [NSString stringWithFormat:@"Drink %.f mL per glass", self.kgValue.value*40*13/25/8];
+    } else {
+        self.Gender.text = @"Female";
+        self.Suggestion.text = [NSString stringWithFormat:@"Drink %.f mL per glass", self.kgValue.value*35*13/25/8];
+    }
+}
+
+
+//move slider to choose weight and it will show the suggestion drinking value
+- (IBAction)mySlider:(UISlider *)sender {
+    self.Weight.text = [NSString stringWithFormat:@"Weight = %.f kg", sender.value];
+    if (self.MF.on) {
+        self.Suggestion.text = [NSString stringWithFormat:@"Drink %.f mL per glass", self.kgValue.value*40*13/25/8];
+    } else {
+        self.Suggestion.text = [NSString stringWithFormat:@"Drink %.f mL per glass", self.kgValue.value*35*13/25/8];
+    }
+}
+
+
 @end

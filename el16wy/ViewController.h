@@ -9,6 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)mySwitch:(UISwitch *)sender;
+- (IBAction)mySlider:(UISlider *)sender;
+
+
+@property (weak, nonatomic) IBOutlet UILabel *Gender;
+@property (weak, nonatomic) IBOutlet UILabel *Weight;
+@property (weak, nonatomic) IBOutlet UILabel *Suggestion;
+@property (weak, nonatomic) IBOutlet UISlider *kgValue;
+@property (weak, nonatomic) IBOutlet UISwitch *MF;
 
 
 @end
