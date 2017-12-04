@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:el16wy.xcodeproj">
+      location = "group:../../Third party Frameworks form Github">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

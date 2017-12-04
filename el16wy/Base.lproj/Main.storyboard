@@ -374,6 +374,7 @@
                         <outlet property="MF" destination="apx-ly-XFj" id="pos-8g-X9N"/>
                         <outlet property="Suggestion" destination="qlT-dL-Tcd" id="dw5-uM-yYk"/>
                         <outlet property="Weight" destination="mjF-RZ-mnE" id="EIa-4n-WlH"/>
+                        <outlet property="imageView" destination="1hN-t8-5OO" id="9ct-gV-zMo"/>
                         <outlet property="kgValue" destination="Pia-Le-k9l" id="mTx-qn-v17"/>
                     </connections>
                 </viewController>
