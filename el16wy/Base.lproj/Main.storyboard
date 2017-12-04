@@ -34,8 +34,7 @@
                                     <segment title="Bar Chart"/>
                                 </segments>
                                 <connections>
-                                    <action selector="Change:" destination="sJC-y6-qjG" eventType="valueChanged" id="ft1-VJ-n0S"/>
-                                    <action selector="Segment:" destination="sJC-y6-qjG" eventType="valueChanged" id="Nuo-JN-u2l"/>
+                                    <action selector="Change:" destination="p9I-rb-4XU" eventType="valueChanged" id="H2B-kL-FUH"/>
                                 </connections>
                             </segmentedControl>
                         </subviews>
@@ -57,7 +56,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5iP-AJ-x7c" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="sJC-y6-qjG" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1036" y="18"/>
         </scene>
