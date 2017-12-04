@@ -4,7 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment version="4112" identifier="iOS"/>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -14,14 +14,18 @@
         <!--History-->
         <scene sceneID="gwr-mc-NUa">
             <objects>
-                <viewController title="History" id="p9I-rb-4XU" sceneMemberID="viewController">
+                <viewController title="History" id="p9I-rb-4XU" customClass="historyViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4pf-Oq-mmW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="idT-xU-cjm">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="Cell" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="idT-xU-cjm">
                                 <rect key="frame" x="0.0" y="113" width="375" height="505"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="p9I-rb-4XU" id="num-ao-TDl"/>
+                                    <outlet property="delegate" destination="p9I-rb-4XU" id="qwQ-7I-z7r"/>
+                                </connections>
                             </tableView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dlb-Cq-gpz">
                                 <rect key="frame" x="107" y="77" width="161" height="29"/>
@@ -29,6 +33,10 @@
                                     <segment title="Table View"/>
                                     <segment title="Bar Chart"/>
                                 </segments>
+                                <connections>
+                                    <action selector="Change:" destination="sJC-y6-qjG" eventType="valueChanged" id="ft1-VJ-n0S"/>
+                                    <action selector="Segment:" destination="sJC-y6-qjG" eventType="valueChanged" id="Nuo-JN-u2l"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -44,8 +52,12 @@
                         <viewLayoutGuide key="safeArea" id="jBi-dt-Ot3"/>
                     </view>
                     <navigationItem key="navigationItem" title="History" id="bcG-My-Csx"/>
+                    <connections>
+                        <outlet property="tableView" destination="idT-xU-cjm" id="dUQ-S0-RCf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5iP-AJ-x7c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="sJC-y6-qjG" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1036" y="18"/>
         </scene>
