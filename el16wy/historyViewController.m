@@ -53,7 +53,7 @@ DVBarChartViewDelegate
     }else{
         NSLog(@"bar Chart");
         // setting of bar chart
-        DVBarChartView *chartView = [[DVBarChartView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 300)];
+        DVBarChartView *chartView = [[DVBarChartView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 400)];
         [self.view addSubview:chartView];
         
         NSMutableArray * xAxisTitleArray = [NSMutableArray array];
@@ -65,7 +65,7 @@ DVBarChartViewDelegate
             [xValues addObject:number];
         }
         chartView.yAxisViewWidth = 52;
-        chartView.numberOfYAxisElements = 5;
+        chartView.numberOfYAxisElements = 8;
         chartView.xAxisTitleArray = xAxisTitleArray;
         
         chartView.xValues = xValues;

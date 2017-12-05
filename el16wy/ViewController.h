@@ -9,11 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+//suggestion value
 - (IBAction)mySwitch:(UISwitch *)sender;
 - (IBAction)mySlider:(UISlider *)sender;
 
-
-//suggestion value
 @property (weak, nonatomic) IBOutlet UILabel *Gender;
 @property (weak, nonatomic) IBOutlet UILabel *Weight;
 @property (weak, nonatomic) IBOutlet UILabel *Suggestion;
@@ -21,7 +20,9 @@
 @property (weak, nonatomic) IBOutlet UISwitch *MF;
 
 
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+- (IBAction)reclick:(UIButton *)sender;  // use for reset the cup if you mistaken the glasses of water
+
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;  // for images show
 
 @end
 

@@ -109,7 +109,7 @@
         
         // create a database
         JQFMDB *db = [JQFMDB shareDatabase:@"water.sqlite" path:[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject]];
-        // 创建表 @"history"=表的名称 表的字段为historyModel的有效属性
+        // create a history list
         [db jq_createTable:@"history" dicOrModel:[historyModel class]];
         // init data
         historyModel *history = [[historyModel alloc] init];
@@ -139,4 +139,11 @@
     
 }
 
+
+- (IBAction)reclick:(UIButton *)sender {
+    // reset the image and data of today
+    [[NSUserDefaults standardUserDefaults]setObject:@"0" forKey:@"water"];
+    [self.imageView setImage:[UIImage imageNamed:[NSString stringWithFormat:@"water0"]]];
+    
+}
 @end
