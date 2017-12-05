@@ -96,7 +96,7 @@
         <!--Reminder Setting-->
         <scene sceneID="s3J-hi-2cw">
             <objects>
-                <viewController title="Reminder Setting" id="Pbc-Ug-zxC" sceneMemberID="viewController">
+                <viewController title="Reminder Setting" id="Pbc-Ug-zxC" customClass="reminderViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VXp-BG-Wee">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -200,29 +200,29 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <switch opaque="NO" tag="8" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="VmM-s7-uLa">
-                                <rect key="frame" x="299" y="493" width="51" height="31"/>
-                            </switch>
-                            <switch opaque="NO" tag="7" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9U9-rw-jNa">
-                                <rect key="frame" x="299" y="443" width="51" height="31"/>
-                            </switch>
-                            <switch opaque="NO" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zyR-xa-0ZM">
-                                <rect key="frame" x="299" y="393" width="51" height="31"/>
-                            </switch>
-                            <switch opaque="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Pq8-VC-zrq">
-                                <rect key="frame" x="299" y="346" width="51" height="31"/>
-                            </switch>
-                            <switch opaque="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="d1f-gf-c9b">
-                                <rect key="frame" x="299" y="296" width="51" height="31"/>
-                            </switch>
-                            <switch opaque="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5X6-1V-ybw">
-                                <rect key="frame" x="299" y="246" width="51" height="31"/>
+                            <switch opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="G6Q-or-upj">
+                                <rect key="frame" x="299" y="146" width="51" height="31"/>
                             </switch>
                             <switch opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YR1-vQ-KLi">
                                 <rect key="frame" x="299" y="196" width="51" height="31"/>
                             </switch>
-                            <switch opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="G6Q-or-upj">
-                                <rect key="frame" x="299" y="146" width="51" height="31"/>
+                            <switch opaque="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5X6-1V-ybw">
+                                <rect key="frame" x="299" y="246" width="51" height="31"/>
+                            </switch>
+                            <switch opaque="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="d1f-gf-c9b">
+                                <rect key="frame" x="299" y="296" width="51" height="31"/>
+                            </switch>
+                            <switch opaque="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Pq8-VC-zrq">
+                                <rect key="frame" x="299" y="346" width="51" height="31"/>
+                            </switch>
+                            <switch opaque="NO" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zyR-xa-0ZM">
+                                <rect key="frame" x="299" y="393" width="51" height="31"/>
+                            </switch>
+                            <switch opaque="NO" tag="7" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9U9-rw-jNa">
+                                <rect key="frame" x="299" y="443" width="51" height="31"/>
+                            </switch>
+                            <switch opaque="NO" tag="8" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="VmM-s7-uLa">
+                                <rect key="frame" x="299" y="493" width="51" height="31"/>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uSU-Fr-eLK">
                                 <rect key="frame" x="299" y="86" width="51" height="31"/>
@@ -308,6 +308,24 @@
                         <viewLayoutGuide key="safeArea" id="uAw-n1-Joe"/>
                     </view>
                     <navigationItem key="navigationItem" title="Reminder Setting" id="JZb-uz-334"/>
+                    <connections>
+                        <outlet property="clock1" destination="oao-KI-CqR" id="bW3-mg-qRg"/>
+                        <outlet property="clock2" destination="jE6-t0-Exy" id="uCA-TB-64k"/>
+                        <outlet property="clock3" destination="6Lc-wI-Vsr" id="Krb-BF-Jm3"/>
+                        <outlet property="clock4" destination="V3H-pk-yvR" id="YAl-t0-ta6"/>
+                        <outlet property="clock5" destination="Jd2-Cx-qK0" id="3Rt-od-Gmu"/>
+                        <outlet property="clock6" destination="ecL-ux-vBg" id="Xae-No-PSV"/>
+                        <outlet property="clock7" destination="TLK-NH-51q" id="7ot-sx-9pG"/>
+                        <outlet property="clock8" destination="ENn-JO-0Zv" id="22g-eu-RYY"/>
+                        <outlet property="switch1" destination="G6Q-or-upj" id="ekS-Nv-K87"/>
+                        <outlet property="switch2" destination="YR1-vQ-KLi" id="f8l-Lv-9Zo"/>
+                        <outlet property="switch3" destination="5X6-1V-ybw" id="Vhf-KS-WCo"/>
+                        <outlet property="switch4" destination="d1f-gf-c9b" id="HNP-wq-PQP"/>
+                        <outlet property="switch5" destination="Pq8-VC-zrq" id="BzX-PO-Ys9"/>
+                        <outlet property="switch6" destination="zyR-xa-0ZM" id="BAK-GA-1CA"/>
+                        <outlet property="switch7" destination="9U9-rw-jNa" id="lNE-uY-mmB"/>
+                        <outlet property="switch8" destination="VmM-s7-uLa" id="9us-Ve-Xqk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nlv-Ji-Yzs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
