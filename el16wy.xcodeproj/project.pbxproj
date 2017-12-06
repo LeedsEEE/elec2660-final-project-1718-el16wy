@@ -26,6 +26,7 @@
 		1C54C47C1FD7059C002BA883 /* icons8-drinking-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C54C4791FD70595002BA883 /* icons8-drinking-25.png */; };
 		1C54C47D1FD7059C002BA883 /* icons8-alarm-clock-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C54C47A1FD70596002BA883 /* icons8-alarm-clock-25.png */; };
 		1C54C47E1FD7059C002BA883 /* icons8-order-history-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C54C47B1FD7059A002BA883 /* icons8-order-history-25.png */; };
+		1C9E36D71FD7FA7800863647 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB163EF1FD61BE400375224 /* UserNotifications.framework */; };
 		1CB1636F1FD5D56500375224 /* water2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB163661FD5D56300375224 /* water2.png */; };
 		1CB163701FD5D56500375224 /* water7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB163671FD5D56300375224 /* water7.png */; };
 		1CB163711FD5D56500375224 /* water5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB163681FD5D56400375224 /* water5.png */; };
@@ -202,6 +203,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C9E36D71FD7FA7800863647 /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +430,7 @@
 		1CC8FD301FB10887006F9106 /* el16wy */ = {
 			isa = PBXGroup;
 			children = (
+				1CB163781FD5D57500375224 /* Third party Frameworks from Github */,
 				1C54C4521FD6F872002BA883 /* icon */,
 				1CB163651FD5D4E800375224 /* image */,
 				1CC8FD311FB10887006F9106 /* AppDelegate.h */,
@@ -445,7 +448,6 @@
 				1CC8FD3C1FB10887006F9106 /* LaunchScreen.storyboard */,
 				1CC8FD3F1FB10887006F9106 /* Info.plist */,
 				1CC8FD401FB10887006F9106 /* main.m */,
-				1CB163781FD5D57500375224 /* Third party Frameworks from Github */,
 			);
 			path = el16wy;
 			sourceTree = "<group>";

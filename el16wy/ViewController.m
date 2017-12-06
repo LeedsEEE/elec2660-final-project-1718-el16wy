@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "historyModel.h"
-#import "JQFMDB.h"
+#import "JQFMDB.h"   // database: This is a 3rd party frameworks from Github, https://github.com/gaojunquan/JQFMDB
 
 
 @interface ViewController ()

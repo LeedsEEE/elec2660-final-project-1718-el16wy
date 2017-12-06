@@ -9,6 +9,8 @@
 #import "reminderViewController.h"
 #import <UserNotifications/UserNotifications.h>
 
+// The noticfication in this part will not run in the simulator, need to use real device to test.
+
 @interface reminderViewController ()
 <
 UIPickerViewDataSource,

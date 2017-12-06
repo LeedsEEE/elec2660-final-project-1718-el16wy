@@ -7,9 +7,11 @@
 //
 
 #import "historyViewController.h"
-#import "JQFMDB.h"
+#import "JQFMDB.h"   // database: This is a 3rd party frameworks from Github, https://github.com/gaojunquan/JQFMDB
 #import "historyModel.h"
-#import "DVBarChartView.h"
+#import "DVBarChartView.h"   // bar chart: This is a 3rd party frameworks from Github, https://github.com/FireMou/DVBarChart
+
+// table view and bar chart can test by changing system date; NOTICE: aviod choosing the date after current date, althought it can show result, the simulator will crash when turn back to the curent date, so choose the date before current date to test.
 
 @interface historyViewController ()
 <

@@ -6,8 +6,10 @@
 //  Copyright © 2017年 University of Leeds. All rights reserved.
 //
 
+// image and icon reference: https://github.com/ruikaili/8-Water ; https://icons8.com/
+
 #import "AppDelegate.h"
-#import "IQKeyboardManager.h"   // keyboard controller
+#import "IQKeyboardManager.h"   // keyboard controller: This is a 3rd party frameworks from Github, https://github.com/hackiftekhar/IQKeyboardManager
 #import <UserNotifications/UserNotifications.h>
 
 @interface AppDelegate ()
