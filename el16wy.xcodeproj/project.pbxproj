@@ -34,7 +34,6 @@
 		1CB163741FD5D56500375224 /* water4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB1636B1FD5D56400375224 /* water4.png */; };
 		1CB163751FD5D56500375224 /* water1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB1636C1FD5D56400375224 /* water1.png */; };
 		1CB163761FD5D56500375224 /* water6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB1636D1FD5D56500375224 /* water6.png */; };
-		1CB163771FD5D56500375224 /* water0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB1636E1FD5D56500375224 /* water0.png */; };
 		1CB163851FD5D5A500375224 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1637B1FD5D5A500375224 /* FMDatabaseQueue.m */; };
 		1CB163861FD5D5A500375224 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1637E1FD5D5A500375224 /* FMDatabaseAdditions.m */; };
 		1CB163871FD5D5A500375224 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1637F1FD5D5A500375224 /* FMDatabase.m */; };
@@ -71,6 +70,7 @@
 		1CC8FD411FB10887006F9106 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8FD401FB10887006F9106 /* main.m */; };
 		1CC8FD4B1FB10887006F9106 /* el16wyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8FD4A1FB10887006F9106 /* el16wyTests.m */; };
 		1CC8FD561FB10887006F9106 /* el16wyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8FD551FB10887006F9106 /* el16wyUITests.m */; };
+		1CDD7C971FD776DC00D7ADA9 /* water0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CDD7C961FD776DC00D7ADA9 /* water0.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,7 +119,6 @@
 		1CB1636B1FD5D56400375224 /* water4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water4.png; sourceTree = "<group>"; };
 		1CB1636C1FD5D56400375224 /* water1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water1.png; sourceTree = "<group>"; };
 		1CB1636D1FD5D56500375224 /* water6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water6.png; sourceTree = "<group>"; };
-		1CB1636E1FD5D56500375224 /* water0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water0.png; sourceTree = "<group>"; };
 		1CB1637A1FD5D5A500375224 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		1CB1637B1FD5D5A500375224 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
 		1CB1637C1FD5D5A500375224 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
@@ -195,6 +194,7 @@
 		1CC8FD511FB10887006F9106 /* el16wyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = el16wyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC8FD551FB10887006F9106 /* el16wyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = el16wyUITests.m; sourceTree = "<group>"; };
 		1CC8FD571FB10887006F9106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CDD7C961FD776DC00D7ADA9 /* water0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water0.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,7 +258,7 @@
 		1CB163651FD5D4E800375224 /* image */ = {
 			isa = PBXGroup;
 			children = (
-				1CB1636E1FD5D56500375224 /* water0.png */,
+				1CDD7C961FD776DC00D7ADA9 /* water0.png */,
 				1CB1636C1FD5D56400375224 /* water1.png */,
 				1CB163661FD5D56300375224 /* water2.png */,
 				1CB1636A1FD5D56400375224 /* water3.png */,
@@ -580,8 +580,8 @@
 				1CC8FD3E1FB10887006F9106 /* LaunchScreen.storyboard in Resources */,
 				1C54C47D1FD7059C002BA883 /* icons8-alarm-clock-25.png in Resources */,
 				1C54C46B1FD6FA32002BA883 /* volume_bottom.png in Resources */,
+				1CDD7C971FD776DC00D7ADA9 /* water0.png in Resources */,
 				1C54C4621FD6FA32002BA883 /* icon-80x80.png in Resources */,
-				1CB163771FD5D56500375224 /* water0.png in Resources */,
 				1C54C4691FD6FA32002BA883 /* icon-114x114.png in Resources */,
 				1C54C46C1FD6FA32002BA883 /* icon-29x29.png in Resources */,
 				1CB163751FD5D56500375224 /* water1.png in Resources */,

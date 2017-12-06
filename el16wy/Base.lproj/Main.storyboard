@@ -50,7 +50,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jBi-dt-Ot3"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="icons8-order-history-25.png" id="1ad-pi-mRy"/>
+                    <tabBarItem key="tabBarItem" title="History" image="icons8-order-history-25.png" id="1ad-pi-mRy"/>
                     <navigationItem key="navigationItem" title="History" id="bcG-My-Csx"/>
                     <connections>
                         <outlet property="tableView" destination="idT-xU-cjm" id="dUQ-S0-RCf"/>
@@ -325,7 +325,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="uAw-n1-Joe"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="icons8-alarm-clock-25.png" id="FAn-zC-a6D"/>
+                    <tabBarItem key="tabBarItem" title="Reminder Setting" image="icons8-alarm-clock-25.png" id="FAn-zC-a6D"/>
                     <navigationItem key="navigationItem" title="Reminder Setting" id="JZb-uz-334"/>
                     <connections>
                         <outlet property="clock1" destination="oao-KI-CqR" id="bW3-mg-qRg"/>
